@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE6B75472875FAF000814E4E /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B75462875FAF000814E4E /* HeroViewController.swift */; };
+		DE6B75492875FBBD00814E4E /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B75482875FBBD00814E4E /* HeroModel.swift */; };
+		DE6B754C2875FE6F00814E4E /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B754B2875FE6F00814E4E /* HeroCell.swift */; };
+		DEC080DA2876040C00E53FC9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC080D92876040C00E53FC9 /* Extension.swift */; };
 		DEF304F22875F90D00498F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF304F12875F90D00498F4E /* AppDelegate.swift */; };
 		DEF304F42875F90D00498F4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF304F32875F90D00498F4E /* SceneDelegate.swift */; };
 		DEF304F62875F90D00498F4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF304F52875F90D00498F4E /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE6B75462875FAF000814E4E /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		DE6B75482875FBBD00814E4E /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		DE6B754B2875FE6F00814E4E /* HeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
+		DEC080D92876040C00E53FC9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		DEF304EE2875F90D00498F4E /* JSONDataStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONDataStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF304F12875F90D00498F4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF304F32875F90D00498F4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE6B754A2875FBFE00814E4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B75482875FBBD00814E4E /* HeroModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DEF304E52875F90D00498F4E = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +72,13 @@
 		DEF304F02875F90D00498F4E /* JSONDataStudy */ = {
 			isa = PBXGroup;
 			children = (
+				DE6B754A2875FBFE00814E4E /* Model */,
 				DEF304F12875F90D00498F4E /* AppDelegate.swift */,
 				DEF304F32875F90D00498F4E /* SceneDelegate.swift */,
 				DEF304F52875F90D00498F4E /* ViewController.swift */,
+				DE6B754B2875FE6F00814E4E /* HeroCell.swift */,
+				DE6B75462875FAF000814E4E /* HeroViewController.swift */,
+				DEC080D92876040C00E53FC9 /* Extension.swift */,
 				DEF304F72875F90D00498F4E /* Main.storyboard */,
 				DEF304FA2875F90E00498F4E /* Assets.xcassets */,
 				DEF304FC2875F90E00498F4E /* LaunchScreen.storyboard */,
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6B75472875FAF000814E4E /* HeroViewController.swift in Sources */,
 				DEF304F62875F90D00498F4E /* ViewController.swift in Sources */,
+				DEC080DA2876040C00E53FC9 /* Extension.swift in Sources */,
 				DEF304F22875F90D00498F4E /* AppDelegate.swift in Sources */,
+				DE6B754C2875FE6F00814E4E /* HeroCell.swift in Sources */,
 				DEF304F42875F90D00498F4E /* SceneDelegate.swift in Sources */,
+				DE6B75492875FBBD00814E4E /* HeroModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
